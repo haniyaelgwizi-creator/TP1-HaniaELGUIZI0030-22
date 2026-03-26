@@ -39,3 +39,14 @@ La commande `git log` montre les deux commits effectués :
 - Premier commit Java  
 - Ajout du fichier notes
 <img width="562" height="291" alt="image" src="https://github.com/user-attachments/assets/666094b6-1418-4c1d-9930-d074b7ec4851" />
+
+
+Après avoir recréé le fichier `credentials`, j’ai exécuté la commande `git status`.
+
+Le fichier apparaît comme "untracked", ce qui signifie qu’il n’est pas suivi par Git.
+
+Dans mon cas, il n’a jamais été ajouté avec `git add`, donc il n’est pas nécessaire d’utiliser la commande `git rm --cached credentials`.
+
+Cela montre que le fichier `.gitignore` fonctionne correctement.
+<img width="613" height="199" alt="image" src="https://github.com/user-attachments/assets/59795159-58bd-4a26-b24c-0c79b5149edc" />
+
